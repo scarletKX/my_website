@@ -1,0 +1,100 @@
+
+  .container > p, .container > h1, .container > h2, .container > h3, .container > h4, .container > h5 {
+  	padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .list_style {
+    list-style-position: inside;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-indent: -1.435em;
+  }
+
+  li > .fa-external-link {
+    text-indent: 0em;
+  }
+
+  .jumbotron > .table-responsive {
+  	padding-left: ;
+  	padding-right: ;
+  }
+
+  .head_name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .head_major {
+    font-size: 16px;
+  }
+
+  .head_text {
+    font-size: 12px;
+  }
+
+  table#contact {
+    font-size: 12px;
+  }
+
+  table#contact tr td:nth-child(2){
+    padding-left: 8px;
+    width: 85%;
+  }
+
+  .left_padding{
+    padding-left: 6.5%;
+  }
+
+  img {
+    border: 1px solid black;
+    width: 150px;
+  }
+
+  .navbar {
+    font-size: 14px;
+  }
+
+  .navbar + .container {
+  	padding-top: 75px;
+  }
+
+/*  table {
+  	border: 1px black solid;
+  }*/
+
+  table#jumbo_head td:nth-child(1) {
+    width: 100px;
+  }
+  table#jumbo_head td:nth-child(2) {
+    padding-left: 35px;
+  }
+
+
+  .jumbotron {
+    padding-top: 53px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    background-size: cover;
+  }
+  .navbar-dark .navbar-brand {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .fa-external-link {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+
+  .card {
+/*  	margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;*/
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }

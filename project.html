@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kyle Xiong - Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark py-0">
+      <a class="navbar-brand" href="index.html">Kyle Xiong</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headCollapse" aria-controls="headCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="headCollapse">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="education.html">Education</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="static/documents/KyleXiong_Resume.docx">Resume</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="documents.html">Other Documents</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+  <div class="container">
+<!--     <div class="card bg-light mx-auto">
+      <div class="card-body">
+        
+      </div>
+    </div> -->
+    <h3>Projects in Detail</h3>
+    <div class="card bg-light mx-auto">
+      <div class="card-body">
+        <h5>Twygator</h5>
+        <p>A Web Application built during the summer of 2019. Once a Twitter user logged into Twygator through OAuth to Twitter, Twygator would get the most recent 5 statuses (tweets, retweets, etc) of every friend of the user, and display it with a 3x3 (i.e. 9 friends) per page layout.</p>
+        <!-- Table Explaining technologies used -->
+        <table>
+          <thead><tr><th>Technology Used:</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Front-End:</td>
+              <td>HTML, CSS, JavaScript, Bootstrap 4</td>
+            </tr>
+            <tr>
+              <td>Back-End:</td>
+              <td>Python, Flask framework, Jinja2, OAuth, SQLAlchemy, Twitter API</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <p>Source Code: <i class="fa fa-external-link"></i><a href="https://github.com/scarletKX/twygator">twygator repository on GitHub</a></p>
+      </div>
+    </div>
+
+    <div class="card bg-light mx-auto">
+      <div class="card-body">
+        <h5>Personal Website</h5>
+        <p>Several web pages introducing myself, which includes education, projects, and career goals, made during the summer of 2019. The website is hosted on the Web Space Directory of the <i class="fa fa-external-link"></i><a href="https://cse.osu.edu/">Department of Computer Science and Engineering</a>. Yes it's exactly the website you are lookig at right now :)</p>
+        <table>
+          <thead><tr><th>Technology Used:</th></tr></thead>
+          <tr>
+            <td>HTML, CSS, JavaScript, Bootstrap 4</td>
+          </tr>
+        </table>
+        <br>
+        <p>Source Code: <i class="fa fa-external-link"></i><a href="https://github.com/scarletKX/my_website">my_website repository on GitHub</a></p>
+      </div>
+    </div>
+
+  </div>
+  
+</body>
